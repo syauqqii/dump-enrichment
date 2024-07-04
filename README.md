@@ -31,7 +31,7 @@ fetch(LINK_FILE_TXT)
                     const postData = {
                         'model[ID]': '00000000-0000-0000-0000-000000000000',
                         'model[LogBookHeaderID]': MONTHLY_ID,
-                        'model[Date]': `2024-04-${date}T00:00:00`,
+                        'model[Date]': `${date}T00:00:00`,
                         'model[Activity]': activity,
                         'model[ClockIn]': clockin,
                         'model[ClockOut]': clockout,
