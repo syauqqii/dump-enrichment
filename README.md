@@ -10,6 +10,7 @@ document.querySelectorAll('a[onclick]').forEach(element => { let monthText = ele
 const URL = 'https://activity-enrichment.apps.binus.ac.id/LogBook/StudentSave';
 const MONTHLY_ID = '';
 const LINK_FILE_TXT = '';
+clear()
 ```
 > *NOTE: pastikan `MONTHLY_ID` & `LINK_FILE_TXT` terisi.
 
