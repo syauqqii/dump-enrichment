@@ -1,9 +1,10 @@
 date|clock_in|clock_out|activity|description
-04|09:30|05:00|meeting dengan client|description sample 4
+04|09:30 am|05:00 pm|meeting dengan client|description sample 4
 
 *NOTE:
 gak perlu diikutkan header date, clockin, dst.
 cukup tulis aja formatnya langsung sesuai dengan header di contoh,
 misal tanggal yang ingin diisi adalah 5 :
 
-5|09:30|05:00|activity_apa|description_apa
+04|09:30 am|05:00 pm|meeting dengan client pertama|description masukin sini
+05|09:30 am|05:00 pm|meeting dengan client kedua|-
