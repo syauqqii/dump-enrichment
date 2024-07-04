@@ -36,7 +36,7 @@ fetch(LINK_FILE_TXT)
 
                     const formBody = new URLSearchParams(postData).toString();
 
-                    fetch(url, {
+                    fetch(URL, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
