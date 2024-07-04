@@ -9,7 +9,7 @@ document.querySelectorAll('a[onclick]').forEach(element => { let monthText = ele
 - perhatikan terdapat `ANU.YTTA` yang harus diganti dengan URL activity anu
 - perhatikan juga pada `bagian monthly_id`, harus diisi dengan hasil dari kode diatas tadi untuk mengambil ID bulan
 ```javascript
-const url = 'https://ANU.YTTA/LogBook/StudentSave';
+const url = 'https://activity-enrichment.apps.binus.ac.id/LogBook/StudentSave';
 const monthly_id = 'PASTE_ID_DISINI';
 ```
 - paste kode diatas ke tab console yang ada diinspect element
