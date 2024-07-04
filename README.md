@@ -12,7 +12,7 @@ const url = 'https://activity-enrichment.apps.binus.ac.id/LogBook/StudentSave';
 const monthly_id = 'PASTE_ID_DISINI';
 
 function replaceSpaces(str) {
-    return str.trim().split(' ').join('-');
+    return str.trim().split(' ').join('+');
 }
 
 clear()
