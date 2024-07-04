@@ -1,5 +1,5 @@
 date|clock_in|clock_out|activity|description
-04|09:30|05:00|meeting-dengan-client|description-sample-4
+04|09:30|05:00|meeting dengan client|description sample 4
 
 *NOTE:
 gak perlu diikutkan header date, clockin, dst.
