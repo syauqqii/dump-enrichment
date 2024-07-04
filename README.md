@@ -7,15 +7,28 @@ document.querySelectorAll('a[onclick]').forEach(element => { let monthText = ele
 - ambil id bulan yang dibutuhkan
 - copy kode berikut :
 ```javascript
-const url = 'https://{ANU_YTTA}/LogBook/StudentSave';
+const url = 'https://HOST_URL_PASTE_SINI/LogBook/StudentSave';
+```
+- pastikan `HOST_URL_PASTE_SINI` telah diisi sesuai dengan anu, ytta 😊
+- paste kode tersebut di tab console yang ada diinspect element
+- enter / submit kodenya di console
+- lalu, lakukan copy lagi kode berikut ini :
+```javascript
+var monthly_id = '';
+var date = 1;
+var activity = '';
+var clockin = '09:30';
+var clockout = '05:00';
+var description = '';
+
 var data = {
     'model[ID]': '00000000-0000-0000-0000-000000000000',
-    'model[LogBookHeaderID]': '{PASTE_ID_BULAN_DISINI}',
-    'model[Date]': '2024-04-{GANTI_TEXT_INI_JADI_TANGGAL}T00:00:00',
-    'model[Activity]': '{GANTI_TEXT_INI_JADI_ACTIVITY}',
-    'model[ClockIn]': '{GANTI_TEXT_INI_JADI_JAM} am',
-    'model[ClockOut]': '{GANTI_TEXT_INI_JADI_JAM} pm',
-    'model[Description]': '{GANTI_TEXT_INI_JADI_DESCRIPTION}',
+    'model[LogBookHeaderID]': monthly_id,
+    'model[Date]': '2024-04-'+date+'T00:00:00',
+    'model[Activity]': activity,
+    'model[ClockIn]': clockin+' am',
+    'model[ClockOut]': clockout+' pm',
+    'model[Description]': description,
     'model[flagjulyactive]': 'false'
 };
 
