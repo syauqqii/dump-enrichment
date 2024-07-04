@@ -20,7 +20,7 @@ clear()
 - paste kode diatas ke tab console yang ada diinspect element
 - submit / ENTER, kelar
 - lalu, copy lagi kode berikut :
-- perhatikan pada bagian `LINK_FILE_TXT` harus [disini](https://raw.githubusercontent.com/syauqqii/dump-enrichment/main/example.txt) dengan url ke text yang sesuai, bisa lihat disini untuk contoh formatnya
+- perhatikan pada bagian `LINK_FILE_TXT` harus diisi dengan url ke text yang sesuai, bisa lihat [disini](https://raw.githubusercontent.com/syauqqii/dump-enrichment/main/example.txt) untuk contoh formatnya
 ```javascript
 fetch('LINK_FILE_TXT')
     .then(response => response.text())
