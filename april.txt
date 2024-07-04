@@ -1,10 +1,9 @@
-02|OFF|OFF|Operasi Gigi Bungsu Impikasi di RSKK|OFF
-03|OFF|OFF|Sakit Pasca Operasi|OFF
-04|OFF|OFF|Sakit Pasca Operasi|OFF
-06|OFF|OFF|Mulai Pulih pasca operasi|OFF
-07|OFF|OFF|Sudah lebih enak|OFF
-08|OFF|OFF|Perjalanan balik ke malang|OFF
-09|09:30 am|05.00 pm|Melanjutkan website digitalfast.id|melakukan setting divercel
-10|09:30 am|05.00 pm|Lanjut pembuatan website digitalfast.id|melakukan setting domain dan lainnya
-11|09:30 am|05.00 pm|Lanjut website digitalfast.id|melakukan update slicing page
-13|09:30 am|05.00 pm|Melanjutkan pembuatan website digitalfast.id|melakukan update slicing page
+2024-05-03|OFF|OFF|Sakit Pasca Operasi|OFF
+2024-05-04|OFF|OFF|Sakit Pasca Operasi|OFF
+2024-05-06|OFF|OFF|Mulai Pulih pasca operasi|OFF
+2024-05-07|OFF|OFF|Sudah lebih enak|OFF
+2024-05-08|OFF|OFF|Perjalanan balik ke malang|OFF
+2024-05-09|09:30 am|05.00 pm|Melanjutkan website digitalfast.id|melakukan setting divercel
+2024-05-10|09:30 am|05.00 pm|Lanjut pembuatan website digitalfast.id|melakukan setting domain dan lainnya
+2024-05-11|09:30 am|05.00 pm|Lanjut website digitalfast.id|melakukan update slicing page
+2024-05-13|09:30 am|05.00 pm|Melanjutkan pembuatan website digitalfast.id|melakukan update slicing page
