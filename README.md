@@ -6,14 +6,18 @@ document.querySelectorAll('a[onclick]').forEach(element => { let monthText = ele
 ```
 - ambil `ID` yang dibutuhkan
 - copy kode berikut :
-> *NOTE: pastikan `MONTHLY_ID` & `LINK_FILE_TXT` terisi.
-
-> untuk pengisian file .txt nya bisa lihat format [klik disini](https://raw.githubusercontent.com/syauqqii/dump-enrichment/main/example.txt).
 ```javascript
 const URL = 'https://activity-enrichment.apps.binus.ac.id/LogBook/StudentSave';
 const MONTHLY_ID = '';
 const LINK_FILE_TXT = '';
+```
+> *NOTE: pastikan `MONTHLY_ID` & `LINK_FILE_TXT` terisi.
 
+> untuk pengisian file .txt nya bisa lihat format [klik disini](https://raw.githubusercontent.com/syauqqii/dump-enrichment/main/example.txt).
+- paste kode diatas ke tab console yang ada diinspect element
+- submit / enter kode yang telah di paste tersebut
+- copy -> paste lalu submit kode dibawah ini :
+```javascript
 fetch(LINK_FILE_TXT)
     .then(response => response.text())
     .then(data => {
@@ -54,5 +58,3 @@ fetch(LINK_FILE_TXT)
     })
     .catch(error => console.error('Error fetching data:', error));
 ```
-- paste kode diatas ke tab console yang ada diinspect element
-- submit / ENTER, kelar
