@@ -8,6 +8,7 @@ document.querySelectorAll('a[onclick]').forEach(element => { let monthText = ele
 - copy kode berikut :
 > *NOTE: pastikan `MONTHLY_ID` & `LINK_FILE_TXT` terisi.
 
+> untuk pengisian file .txt nya bisa lihat format [klik disini](https://raw.githubusercontent.com/syauqqii/dump-enrichment/main/example.txt).
 ```javascript
 const URL = 'https://activity-enrichment.apps.binus.ac.id/LogBook/StudentSave';
 const MONTHLY_ID = '';
