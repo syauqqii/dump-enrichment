@@ -11,10 +11,6 @@ document.querySelectorAll('a[onclick]').forEach(element => { let monthText = ele
 const url = 'https://activity-enrichment.apps.binus.ac.id/LogBook/StudentSave';
 const monthly_id = 'PASTE_ID_DISINI';
 
-function replaceSpaces(str) {
-    return str.trim().split(' ').join('+');
-}
-
 clear()
 ```
 - paste kode diatas ke tab console yang ada diinspect element
