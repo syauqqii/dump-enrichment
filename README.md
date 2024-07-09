@@ -14,8 +14,8 @@ document.querySelectorAll('a[onclick]').forEach(element => { let monthText = ele
 - Akan muncul list monthly ID, kalian `salin ID` yang akan anda isi "Log Book"nya
 - Salin kode dibawah ini :
 ```javascript
-const MonthlyID = '';
-const FileURL = '';
+let MonthlyID = '';
+let FileURL = '';
 clear()
 ```
 
