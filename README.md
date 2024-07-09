@@ -1,23 +1,26 @@
-# YTTA
-- buka inspect element
-- buka tab console, paste kode :
+### Format Pengisian File
+Silahkan [Lihat Format Pengisian File](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian).
+
+### Cara Penggunaan
+- Kunjungi halaman activity enrichment app
+- Buka tab "Log Book"
+- Klik kanan, lalu `Inspect Element`
+- Pada `Inspect Element`, buka tab `Console`
+- Salin kode dibawah ini :
 ```javascript
 document.querySelectorAll('a[onclick]').forEach(element => { let monthText = element.textContent.trim(); let match = element.getAttribute('onclick').match(/tabClick\('([^']+)'\)/); if (match) console.log(`${monthText}: ${match[1]}`); });
 ```
-- ambil `ID` yang dibutuhkan
-- copy kode berikut :
+- Setelah menyalin kode diatas, `paste` kode tersebut di `Console` pada `Inspect Element`
+- Akan muncul list monthly ID, kalian `salin ID` yang akan anda isi "Log Book"nya
+- Salin kode dibawah ini :
 ```javascript
 const URL = 'https://activity-enrichment.apps.binus.ac.id/LogBook/StudentSave';
 const MONTHLY_ID = '';
 const LINK_FILE_TXT = '';
 clear()
 ```
-> *NOTE: pastikan `MONTHLY_ID` & `LINK_FILE_TXT` terisi.
-
-> untuk pengisian file .txt nya bisa lihat format [klik disini](https://raw.githubusercontent.com/syauqqii/dump-enrichment/main/example.txt).
-- paste kode diatas ke tab console yang ada diinspect element
-- submit / enter kode yang telah di paste tersebut
-- copy -> paste lalu submit kode dibawah ini :
+- Setelah menyalin kode diatas, pastikan anda telah mengisi `MONTHLY_ID` dan `LINK_FILE_TXT`, lalu `paste` kode tersebut di `Console` pada `Inspect Element`
+- Salin kode dibawah ini :
 ```javascript
 fetch(LINK_FILE_TXT)
     .then(response => response.text())
@@ -59,3 +62,4 @@ fetch(LINK_FILE_TXT)
     })
     .catch(error => console.error('Error fetching data:', error));
 ```
+- Setelah menyalin kode diatas, `paste` kode tersebut di `Console` pada `Inspect Element`
