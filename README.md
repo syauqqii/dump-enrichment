@@ -19,6 +19,7 @@ const FileURL = '';
 clear()
 ```
 - Setelah menyalin kode diatas, pastikan anda telah mengisi `MonthlyID` dan `FileURL`, lalu `paste` kode tersebut di `Console` pada `Inspect Element`
+
 |Variabel|Penjelasan|
 |---|---|
 |MonthlyID|Isi variabel ini dengan yang anda salin di poin ke-7|
