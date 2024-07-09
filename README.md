@@ -1,7 +1,7 @@
-### Format Pengisian File
+## Format Pengisian File
 Silahkan [Lihat Format Pengisian File](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian).
 
-### Cara Penggunaan
+## Cara Penggunaan
 - Kunjungi halaman activity enrichment app
 - Buka tab "Log Book"
 - Klik kanan, lalu `Inspect Element`
