@@ -1,4 +1,4 @@
-### Catatan Penting :
+## Catatan Penting :
 Jika sudah kalian isi semua, pastikan menghapus baris yang terdapat `-`, karena pada baris itu saya set bahwa hari tersebut adalah libur (minggu) secara default di website enrichment.
 
 Contoh :
@@ -15,7 +15,7 @@ Menjadi :
 2024-06-03|CLOCK_IN|CLOCK_OUT|ACTIVIY|DESCRIPTION
 ```
 
-### Penjelasan
+## Penjelasan
 |Variabel|Penjelasan|
 |---|---|
 |`CLOCK_IN`|ganti dengan `jam+"am"` / set `OFF` jika kalian libur / ada keperluan lain|
@@ -23,7 +23,7 @@ Menjadi :
 |`ACTIVITY`|ganti dengan `aktifitas kalian`|
 |`DESCRIPTION`|ganti dengan `deskripsi kalian`|
 
-### Contoh Pengisian :
+## Contoh Pengisian :
 - Jika tidak libur
 `2024-06-01|09:30 am|05:00 pm|Belajar|Belajar dengan menonton youtube`
 
