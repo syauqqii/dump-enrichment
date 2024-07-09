@@ -18,12 +18,12 @@ const MonthlyID = '';
 const FileURL = '';
 clear()
 ```
-- Setelah menyalin kode diatas, pastikan anda telah mengisi `MonthlyID` dan `FileURL`, lalu `paste` kode tersebut di `Console` pada `Inspect Element`
 
 |Variabel|Penjelasan|
 |---|---|
 |MonthlyID|Isi variabel ini dengan yang anda salin di poin ke-7|
 |FileURL|Isi variabel ini dengan link file yang anda upload di github lalu cek di bagian raw|
+- Setelah menyalin kode diatas, pastikan anda telah mengisi `MonthlyID` dan `FileURL`, lalu `paste` kode tersebut di `Console` pada `Inspect Element`
 - Salin kode dibawah ini :
 ```javascript
 fetch(FileURL)
