@@ -1,6 +1,20 @@
 ### Catatan Penting :
 Jika sudah kalian isi semua, pastikan menghapus baris yang terdapat `-`, karena pada baris itu saya set bahwa hari tersebut adalah libur (minggu) secara default di website enrichment.
 
+Contoh :
+```
+Dari :
+----------------------------------------------------
+2024-06-01|CLOCK_IN|CLOCK_OUT|ACTIVIY|DESCRIPTION
+-
+2024-06-03|CLOCK_IN|CLOCK_OUT|ACTIVIY|DESCRIPTION
+
+Menjadi :
+----------------------------------------------------
+2024-06-01|CLOCK_IN|CLOCK_OUT|ACTIVIY|DESCRIPTION
+2024-06-03|CLOCK_IN|CLOCK_OUT|ACTIVIY|DESCRIPTION
+```
+
 ### Penjelasan
 |Variabel|Penjelasan|
 |---|---|
