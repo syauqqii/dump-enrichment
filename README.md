@@ -22,7 +22,7 @@ clear()
 |Variabel|Penjelasan|
 |---|---|
 |MonthlyID|Isi variabel ini dengan yang anda salin di poin ke-7|
-|FileURL|Isi variabel ini dengan link file yang anda upload di github lalu cek di bagian raw|
+|FileURL|Isi variabel ini dengan link file yang anda upload di github ([Lihat Format](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian)) lalu cek di bagian raw|
 - Setelah menyalin kode diatas, pastikan anda telah mengisi `MonthlyID` dan `FileURL`, lalu `paste` kode tersebut di `Console` pada `Inspect Element`
 - Salin kode dibawah ini :
 ```javascript
