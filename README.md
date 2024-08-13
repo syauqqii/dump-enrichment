@@ -51,19 +51,19 @@ javascript:(function(){
                             .then(response => response.json())
                             .then(result => {
                                 alert("Successfully Uploaded!");
-                                console.log(result)
+                                console.log(result);
                             })
                             .catch(error => {
-                                alert("ERROR: Check inspect element [CONSOLE] TAB")
-                                console.error('Error:', error)
+                                alert("ERROR: Check inspect element [CONSOLE] TAB");
+                                console.error('Error:', error);
                             });
                         }
                     }
                 });
             })
             .catch(error => {
-                alert("ERROR: Check inspect element [CONSOLE] TAB")
-                console.error('Error fetching data:', error)
+                alert("ERROR: Check inspect element [CONSOLE] TAB");
+                console.error('Error fetching data:', error);
             });
     }
 })();
