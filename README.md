@@ -2,7 +2,9 @@
 Silahkan [Lihat Format Pengisian File](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian).
 
 ## Tutorial Video
-MALAS BUAT VIDEO, BACA SENDIRI DIBAWAH INI UNTUK TUTORIALNYA !!
+ <iframe width="420" height="315"
+src="https://www.youtube.com/embed/3rY8BhAHRhk?autoplay=1&mute=1">
+</iframe>
 
 ## Cara Penggunaan
 1. <b>Buat Bookmark Baru</b>:
