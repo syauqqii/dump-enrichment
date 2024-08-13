@@ -18,10 +18,10 @@ Menjadi :
 ## Penjelasan
 |Variabel|Penjelasan|
 |---|---|
-|`CLOCK_IN`|ganti dengan `jam+"am"` / set `OFF` jika kalian libur / ada keperluan lain|
-|`CLOCK_OUT`|ganti dengan `jam+"pm"` / set `OFF` jika kalian libur / ada keperluan lain|
-|`ACTIVITY`|ganti dengan `aktifitas kalian`|
-|`DESCRIPTION`|ganti dengan `deskripsi kalian`|
+|`CLOCK_IN`|ganti dengan `jam "am/pm"` / set `OFF` jika kalian libur / ada keperluan lain, contoh: `09:30 am`|
+|`CLOCK_OUT`|ganti dengan `jam "am/pm"` / set `OFF` jika kalian libur / ada keperluan lain, contoh: `05:00 pm`|
+|`ACTIVITY`|ganti dengan `aktifitas kalian`, contoh: `Membuat sarapan`|
+|`DESCRIPTION`|ganti dengan `deskripsi kalian`, contoh: `Supaya kenyang`|
 
 ## Contoh Pengisian :
 - Jika tidak libur
