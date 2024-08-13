@@ -1,0 +1,24 @@
+2024-07-04|09:30 am|05:00 pm|Mengedit / memodifikasi fungsi bawaan connectbot supaya berfungsi dengan tambahan logika yang saya terapkan|memodifikasi hostdatabase.java, hostlistactivity.java (masih mendapati error)
+2024-07-05|09:30 am|05:00 pm|Lanjut memodifikasi file bawaan connectbot|hostlistactivity.java, editlistactivity.java (masih error)
+2024-07-06|09:30 am|05:00 pm|Lanjut memodifikasi file bawaan connectbot|masih terdapat error pada HostBean dan juga masalah yang belum saya perbaiki karena kurang nya dokumentasi
+2024-07-08|09:30 am|05:00 pm|Lanjut memodifikasi file bawaan connectbot|semua lancar, error yang sebelumnya sudah saya perbaiki
+2024-07-09|09:30 am|05:00 pm|mulai mensinkronkan semua fungsi kotlin dengan java bawaan connectbot|terdapat error
+2024-07-10|09:30 am|05:00 pm|memperbaiki error dan melakukan pengujian lanjutan|melakukan ujian untuk test setiap fungsi memastikan tidak ada bug
+2024-07-11|09:30 am|05:00 pm|mempelajari bug yang ada di kotlin maupun java seperti cve umum|mempelajari supaya dapat mengeksplorasi berbagai macam bug untuk dilakukan uji coba
+2024-07-12|09:30 am|05:00 pm|test selesai, melakukan presentasi dengan client|client meminta revisi dan tambahan untuk membuatkan diagram serta dokumentasi lengkap terakit pembuatan aplikasi mobilenya
+2024-07-13|09:30 am|05:00 pm|proses melakukan revisi untuk client|melakukan revisi pada fungsi penyimpanan dan keamanan
+2024-07-15|09:30 am|05:00 pm|lapor ke client bahwa revisi selesai, tapi client menemukan bug yang tidak disangka|mencoba memperbaiki bug tapi belum berhasil
+2024-07-16|09:30 am|05:00 pm|bug sudah di perbaiki, client ingin tambahan fitur lagi|melakukan penambahan fitur pin setiap sesi
+2024-07-17|09:30 am|05:00 pm|membuat dokumentasi erd dan juga memperbaiki bug baru|lancar
+2024-07-18|09:30 am|05:00 pm|membuat dokumentasi database schema, use case|lancar
+2024-07-19|09:30 am|05:00 pm|membuat dokumentasi class diagram, sequence diagram|lancar
+2024-07-20|09:30 am|05:00 pm|membuat activity diagram, lapor ke client, client meminta revisi terhadap diagram diagramnya|tidak berjalan lancar karena client ingin merombak ulang diagram
+2024-07-22|09:30 am|05:00 pm|membuat daigram baru untuk use case dan langsung lapor ke client, akhirnya setuju|proses berjalan lancar
+2024-07-23|09:30 am|05:00 pm|membuat diagram baru untuk class diagram serta langsung laporan ke client, client meminta revisi|kurang lancar, karena ada revisi
+2024-07-24|09:30 am|05:00 pm|melakukan revisi ulang terkait class diagram yang diminta client, lapor keclient, dan setuju|proses laporan lancar
+2024-07-25|09:30 am|05:00 pm|membuat diagram sequence dan activity, lapor ke client, client setuju|laporan ke client lancar
+2024-07-26|09:30 am|05:00 pm|client menghubungi dan meminta revisi fitur aplikasi|revisi bagian delete sesssion untuk mengimplementasian input hanya angka
+2024-07-27|09:30 am|05:00 pm|client meminta penambahan fitur log|untuk menambahkan semua logging ke dalam database log
+2024-07-29|09:30 am|05:00 pm|revisi erd diagram dan menambahkan fitur logging final|penambahan fitur log
+2024-07-30|09:30 am|05:00 pm|client menemukan bug di logging saat saya melakukan presentasi|terdapat hal yang kurang menyenangkan karena kesalahan saya terhadap bug tersebut
+2024-07-31|09:30 am|05:00 pm|memperbaiki bug dan melanjutkan laporan saya ke client untuk presentasi dan mengajarinya bagaimana caranya untuk pembuatan aplikasi tersebut|karena ini projek client yang meminta untuk diajarkan, jadi saya harus mengajarkannya hingga dia bisa memahami dalam kurung waktu agustus akhir sudah paham semuanya
