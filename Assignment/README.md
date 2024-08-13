@@ -1,5 +1,5 @@
 ## Get ALL Assignment Instanly
-meskipun due date lewat, ini tetap work dek
+meskipun due date lewat / masih minta request extend, ini tetap work dek
 
 1. Buka enrichment app
 2. Pilih tab "Assignment"
