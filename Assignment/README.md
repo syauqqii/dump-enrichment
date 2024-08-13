@@ -1,4 +1,6 @@
 ## Get ALL Assignment Instanly
+meskipun due date lewat, ini tetap work dek
+
 1. Buka enrichment app
 2. Pilih tab "Assignment"
 3. Copy Kode dibawah ini, lalu paste pada inspect element -> console
