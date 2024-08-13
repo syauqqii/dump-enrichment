@@ -12,8 +12,6 @@ MALAS BUAT VIDEO, BACA SENDIRI DIBAWAH INI UNTUK TUTORIALNYA !!
  - Salin kode JavaScript di bawah ini:
 ```javascript
 javascript:(function(){
-    // input manual
-    // var FileURL = "<URL TO FILE>";
     var FileURL = prompt("Input File URL:");
 
     if (FileURL) {
