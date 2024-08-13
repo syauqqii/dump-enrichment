@@ -5,6 +5,8 @@ Silahkan [Lihat Format Pengisian File](https://github.com/syauqqii/dump-enrichme
 - Buat bookmark, lalu copy dan paste kode dibawah ini ke dalam value bookmark kalian
 ```javascript
 javascript:(function(){
+    // input manual
+    // var FileURL = "<URL TO FILE>";
     var FileURL = prompt("Input File URL:");
 
     if (FileURL) {
@@ -40,13 +42,22 @@ javascript:(function(){
                                 credentials: 'same-origin'
                             })
                             .then(response => response.json())
-                            .then(result => console.log(result))
-                            .catch(error => console.error('Error:', error));
+                            .then(result => {
+                                alert("Successfully Uploaded!");
+                                console.log(result)
+                            })
+                            .catch(error => {
+                                alert("ERROR: Check inspect element [CONSOLE] TAB")
+                                console.error('Error:', error)
+                            });
                         }
                     }
                 });
             })
-            .catch(error => console.error('Error fetching data:', error));
+            .catch(error => {
+                alert("ERROR: Check inspect element [CONSOLE] TAB")
+                console.error('Error fetching data:', error)
+            });
     }
 })();
 ```
