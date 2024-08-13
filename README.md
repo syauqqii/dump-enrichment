@@ -6,10 +6,10 @@ MALAS BUAT VIDEO, BACA SENDIRI DIBAWAH INI UNTUK TUTORIALNYA !!
 
 ## Cara Penggunaan
 1. <b>Buat Bookmark Baru</b>:
-- Buka browser Anda dan buat bookmark baru.
-- Untuk browser seperti Chrome atau Firefox, Anda dapat melakukannya dengan mengklik ikon bintang di bilah alamat atau menekan `Ctrl+D` (Windows) / `Cmd+D` (Mac).
+ - Buka browser Anda dan buat bookmark baru.
+ - Untuk browser seperti Chrome atau Firefox, Anda dapat melakukannya dengan mengklik ikon bintang di bilah alamat atau menekan `Ctrl+D` (Windows) / `Cmd+D` (Mac).
 2. <b>Salin Kode Bookmarklet</b>:
-- Salin kode JavaScript di bawah ini:
+ - Salin kode JavaScript di bawah ini:
 ```javascript
 javascript:(function(){
     // input manual
@@ -68,21 +68,21 @@ javascript:(function(){
     }
 })();
 ```
-- Tempelkan kode ini ke dalam field URL pada bookmark baru Anda.
+ - Tempelkan kode ini ke dalam field URL pada bookmark baru Anda.
 3. <b>Masuk ke Aplikasi Enrichment</b>:
-- Buka aplikasi enrichment di browser Anda.
+ - Buka aplikasi enrichment di browser Anda.
 4. <b>Navigasi ke "Log Book"</b>:
-- Arahkan ke tab "Log Book" dalam aplikasi.
+ - Arahkan ke tab "Log Book" dalam aplikasi.
 5. <b>Pilih Bulan yang Akan Diisi</b>:
-- Pilih bulan yang sesuai untuk data yang ingin Anda unggah (misalnya: bulan `Juli`).
+ - Pilih bulan yang sesuai untuk data yang ingin Anda unggah (misalnya: bulan `Juli`).
 6. <b>Jalankan Bookmarklet</b>:
-- Klik bookmark yang telah Anda buat sebelumnya.
+ - Klik bookmark yang telah Anda buat sebelumnya.
 7. <b>Masukkan URL File</b>:
-- Anda akan diminta untuk memasukkan URL file yang berisi data yang akan diunggah. File tersebut harus tersedia di GitHub dalam format yang sesuai. [Lihat Format](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian)
-- Buka file di GitHub, klik tombol "Raw" untuk mendapatkan URL langsung ke file tersebut.
+ - Anda akan diminta untuk memasukkan URL file yang berisi data yang akan diunggah. File tersebut harus tersedia di GitHub dalam format yang sesuai. [Lihat Format](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian)
+ - Buka file di GitHub, klik tombol "Raw" untuk mendapatkan URL langsung ke file tersebut.
 8. <b>Salin dan Tempel URL</b>:
 - Salin URL file raw dari GitHub dan tempelkan ke prompt yang muncul setelah mengklik bookmark.
 9. <b>Klik OK</b>:
-- Klik "OK" pada prompt untuk memulai proses unggah.
+ - Klik "OK" pada prompt untuk memulai proses unggah.
 10. <b>Segarkan Halaman</b>:
-- Setelah proses selesai, segarkan halaman aplikasi untuk melihat data yang telah diunggah.
+ - Setelah proses selesai, segarkan halaman aplikasi untuk melihat data yang telah diunggah.
