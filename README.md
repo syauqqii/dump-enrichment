@@ -55,6 +55,6 @@ javascript:(function(){
 - Buka tab bulan yang akan diisi (misalnya: bulan juli)
 - Klik bookmark yang telah dibuat sebelumnya
 - Anda akan dimintai link file yang anda upload di github ([Lihat Format](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian)) lalu cek di bagian raw
-- Copy text atas tersebut, lalu pastekan ke prompt yang diminta oleh bookmark yang anda click
+- Copy link atas tersebut (file raw github kalian), lalu pastekan ke prompt yang diminta oleh bookmark yang anda click
 - Klik OK
 - Refresh halaman website
