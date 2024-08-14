@@ -66,7 +66,7 @@ javascript:(function(){
     }
 })();
 ```
-    - Tempelkan kode ini ke dalam field URL pada bookmark baru Anda.
+Tempelkan kode diatas ke dalam field URL pada bookmark baru Anda.
 3. **Masuk ke Aplikasi Enrichment**:
     - Buka aplikasi enrichment di browser Anda.
 4. **Navigasi ke "Log Book"**:
