@@ -7,7 +7,7 @@ Silahkan [Lihat Format Pengisian File](https://github.com/syauqqii/dump-enrichme
 ## Cara Penggunaan
 1. **Buat Bookmark Baru**:
     - Buka browser Anda dan buat bookmark baru.
-    - Untuk browser seperti Chrome atau Firefox, Anda dapat melakukannya dengan mengklik ikon bintang di bilah alamat atau menekan `Ctrl+D` (Windows) / `Cmd+D` (Mac).
+    - Untuk browser seperti Chrome atau Firefox, Anda dapat melakukannya dengan mengklik ikon bintang di bilah alamat atau menekan `Ctrl+D` (Windows) / `Cmd+D` (Mac). Untuk lainnya, bisa cek sendiri dengan bantuan google.
 2. **Salin Kode Bookmarklet**:
     - Salin kode JavaScript di bawah ini:
 ```javascript
