@@ -1,10 +1,10 @@
-## Format Pengisian File
-Silahkan [Lihat Format Pengisian File](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian).
+## 📝 Format Pengisian File
+Lihat format pengisian file [di sini](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian).
 
-## Tutorial Video
-[KLIK DISINI](https://www.youtube.com/watch?v=3rY8BhAHRhk)
+## 📹 Tutorial Video
+Buka [YouTube](https://www.youtube.com/watch?v=3rY8BhAHRhk).
 
-## Cara Penggunaan
+## 🤔 Cara Penggunaan
 1. **Buat Bookmark Baru**:
     - Buka browser Anda dan buat bookmark baru.
     - Untuk browser seperti Chrome atau Firefox, Anda dapat melakukannya dengan mengklik ikon bintang di bilah alamat atau menekan `Ctrl+D` (Windows) / `Cmd+D` (Mac). Untuk lainnya, bisa cek sendiri dengan bantuan google.
@@ -76,7 +76,7 @@ javascript:(function(){
 6. **Jalankan Bookmarklet**:
     - Klik bookmark yang telah Anda buat sebelumnya.
 7. **Masukkan URL File**:
-    - Anda akan diminta untuk memasukkan URL file yang berisi data yang akan diunggah. File tersebut harus tersedia di GitHub dalam format yang sesuai. [Lihat Format](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian)
+    - Anda akan diminta untuk memasukkan URL file yang berisi data yang akan diunggah. File tersebut harus tersedia di GitHub dalam format ([di sini](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian)) yang sesuai.
     - Buka file di GitHub, klik tombol "Raw" untuk mendapatkan URL langsung ke file tersebut.
 8. **Salin dan Tempel URL**:
     - Salin URL file raw dari GitHub dan tempelkan ke prompt yang muncul setelah mengklik bookmark.
