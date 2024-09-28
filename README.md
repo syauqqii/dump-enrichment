@@ -6,7 +6,7 @@ Lihat video [YouTube](https://www.youtube.com/watch?v=3rY8BhAHRhk).
 
 ## 🧐 Cara Penggunaan
 ### 🤓 **Buat Bookmark Baru**:
-Tekan Ctrl+D (Windows) / Cmd+D (Mac) untuk membuat bookmark baru.
+> Tekan Ctrl+D (Windows) / Cmd+D (Mac) untuk membuat bookmark baru.
 ### 😘 **Salin Kode Bookmarklet (kode JS dibawah ini)**:
 ```javascript
 javascript: (function() {
@@ -71,19 +71,18 @@ javascript: (function() {
 })();
 ```
 ### 🥵 **Masuk ke Aplikasi Enrichment**:
-Buka aplikasi enrichment di browser Anda.
+> Buka aplikasi enrichment di browser Anda.
 ### 😨 **Navigasi ke tab "Log Book"**:
-Arahkan ke tab "Log Book" dalam aplikasi.
+> Arahkan ke tab "Log Book" dalam aplikasi.
 ### 😴 **Pilih Bulan yang Akan Di isi**:
-Pilih bulan yang sesuai untuk data yang ingin Anda unggah (misalnya: bulan `Juli`).
+> Pilih bulan yang sesuai untuk data yang ingin Anda unggah (misalnya: bulan `Juli`).
 ### 😁 **Jalankan Bookmarklet**:
-Klik bookmark yang telah Anda buat sebelumnya.
+> Klik bookmark yang telah Anda buat sebelumnya.
 ### 😎 **Masukkan URL File**:
-Anda akan diminta untuk memasukkan URL file yang berisi data yang akan diunggah. File tersebut harus tersedia di GitHub dalam format ([di sini](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian)) yang sesuai.
-Buka file di GitHub, klik tombol "Raw" untuk mendapatkan URL langsung ke file tersebut.
+> Anda akan diminta untuk memasukkan URL file yang berisi data yang akan diunggah. File tersebut harus tersedia di GitHub dalam format ([di sini](https://github.com/syauqqii/dump-enrichment/tree/main/Format%20Pengisian)) yang sesuai. Buka file di GitHub, klik tombol "Raw" untuk mendapatkan URL langsung ke file tersebut.
 ### 😱 **Salin dan Tempel URL**:
-Salin URL file raw dari GitHub dan tempelkan ke prompt yang muncul setelah mengklik bookmark.
+> Salin URL file raw dari GitHub dan tempelkan ke prompt yang muncul setelah mengklik bookmark.
 ### 🚀 **Klik OK**:
-Klik `OK` pada prompt untuk memulai proses unggah.
+> Klik `OK` pada prompt untuk memulai proses unggah.
 ### 🏁 **Refresh Halaman (F5)**:
-Setelah proses selesai, segarkan halaman aplikasi untuk melihat data yang telah diunggah.
+> Setelah proses selesai, segarkan halaman aplikasi untuk melihat data yang telah diunggah.
