@@ -46,3 +46,33 @@ Contoh tampilan diatas, jika diupload ke enrichment app :
 |DATE|CLOCK IN|CLOCK OUT|ACTIVITY|DESCRIPTION|
 |---|---|---|---|---|
 |2024-06-01|OFF|OFF|Sakit|Sakit demam tinggi|
+
+## Direct download template
+```javascript
+javascript: (function() {
+    const logBookHeaderID = document.querySelector('ul[id="monthTab"] li.current a').getAttribute('onclick').split("'")[1];
+    const url = 'https://activity-enrichment.apps.binus.ac.id/LogBook/GetLogBook';
+    const postData = new URLSearchParams();
+    postData.append('logBookHeaderID', logBookHeaderID);
+    fetch(url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
+        },
+        body: postData.toString()
+    }).then(response => response.json()).then(result => {
+        const formattedData = result.data.map(entry => (entry.clockIn === 'OFF' && entry.clockOut === 'OFF') ? '-' : `${entry.date.split('T')[0]}|${entry.clockIn || 'CLOCK_IN'}|${entry.clockOut || 'CLOCK_OUT'}|${entry.activity || 'ACTIVITY'}|${entry.description || 'DESCRIPTION'}`).join('\n');
+        const monthName = document.querySelector('ul[id="monthTab"] li.current a').text.split(' ')[0].trim().toLowerCase();
+        const fileName = `logbook-${monthName}.txt`;
+        const blob = new Blob([formattedData], {
+            type: "text/plain"
+        });
+        const link = document.createElement("a");
+        link.href = URL.createObjectURL(blob);
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }).catch(error => console.error('Error fetching logbook data:', error));
+})();
+```
