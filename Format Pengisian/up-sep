@@ -1,0 +1,21 @@
+2024-09-06|09:30 am|05:00 pm|Mengerjakan proyek klien|Memahami logika dari proyek klien
+2024-09-07|09:30 am|05:00 pm|Mengerjakan proyek klien|Mulai mendesain logika dan juga menerapkan sedikit untuk DST untuk proyek klien
+2024-09-09|09:30 am|05:00 pm|Mengerjakan proyek klien|Finalisasi penerapan logika DST untuk proyek klien
+2024-09-10|09:30 am|05:00 pm|Mengerjakan proyek klien|Memahami cara kerja dan juga logika di backend layer untuk proses handling schedule
+2024-09-11|09:30 am|05:00 pm|Mengerjakan proyek klien|Desin flow atau logika untuk menerapkan dynamic schedule
+2024-09-12|09:30 am|05:00 pm|Mengerjakan proyek klien|Membuat field baru di database dan proses implementasi logika
+2024-09-13|09:30 am|05:00 pm|Mengerjakan proyek klien|Melakukan pembuatan controller untuk penerapan logika table
+2024-09-14|09:30 am|05:00 pm|Mengerjakan proyek klien|Melakukan pembuatan table pada frontend untuk konsumsi data yang dikirim dari controller
+2024-09-16|09:30 am|05:00 pm|Mengerjakan proyek klien|Laporan ke klien, terdapat revisi mengenai penempatan table
+2024-09-17|09:30 am|05:00 pm|Mengerjakan proyek klien|Kirim laporan ke klien, terdapat revisi kembali dan juga ingin menambahkan fitur pulang pergi
+2024-09-18|09:30 am|05:00 pm|Mengerjakan proyek klien|Melakukan revisi terhadap pemisahan table sesuai keinginan klien
+2024-09-19|09:30 am|05:00 pm|Mengerjakan Laundry POS|Membuat backend aplikasi menjadi lebih clean code di bagian Route
+2024-09-20|09:30 am|05:00 pm|Mengerjakan Laundry POS|Membuat backend aplikasi menjadi lebih clean code di bagian Database
+2024-09-21|09:30 am|05:00 pm|Mengerjakan Laundry POS|Membuat backend apliaski menjadi lebih clean code di bagian controller
+2024-09-23|09:30 am|05:00 pm|Mengerjakan Laundry POS|Melakukan refactor kode di bagian repositories
+2024-09-24|09:30 am|05:00 pm|Mengerjakan proyek klien|Revisi terhadap pemisahan table sudah selesai, sisa refactor kode supaya dapat mengurangi redundan
+2024-09-25|09:30 am|05:00 pm|Mengerjakan Laundry POS|Melakukan beberapa refactor di bagian kode
+2024-09-26|09:30 am|05:00 pm|Mengerjakan Laundry POS|Mulai membuat logika untuk transaction, transactionDetail, historyPayment, Document
+2024-09-27|09:30 am|05:00 pm|Mengerjakan Laundry POS|Mulai mengimplementasikan logika yang sudah dibuat kemarin
+2024-09-28|09:30 am|05:00 pm|Mengerjakan Laundry POS|Implementasi selesai, melakukan refaktor kode supaya mengurandi redundan
+2024-09-30|09:30 am|05:00 pm|Mengerjakan Laundry POS|Lanjut untuk pembuatan transaction order serta langsung menerapkan, progress 30%
