@@ -1,3 +1,9 @@
+## Format Pengisian :
+```
+startDate|endDate|title|activity
+```
+
+## Kode Javascript
 ```javascript
 javascript: (function() {
     let token = "";
