@@ -1,4 +1,0 @@
-2024-09-04|2024-09-04|Mengerjakan Laundry POS|Membuat backend aplikasi Laundry POS (services dan repositories)
-2024-09-05|.|Mengerjakan Laundry POS|Membuat backend aplikasi Laundry POS (services dan repositories)
-2024-09-06|.|Mengerjakan Laundry POS|Membuat backend aplikasi Laundry POS (services dan repositories)
-2024-09-07||Mengerjakan Laundry POS|Membuat backend aplikasi Laundry POS (services dan repositories)
