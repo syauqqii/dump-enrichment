@@ -7,10 +7,11 @@ startDate|endDate|title|activity
 ```
 2024-09-02|2024-09-02|memasak|memasak rendang yang enak banget!
 
-atau bisa juga seperti ini :
+*ADDITIONAL: atau bisa juga seperti ini contoh dibawah ini
+
 2024-09-02|.|memasak|memasak rendang yang enak banget!
 
-endDate diisi '.' berarti endDate dan startDate sama, jadi tidak perlu ribet memasukkan 2 kali startDate dan endDate
+*NOTE: endDate diisi '.' berarti endDate dan startDate sama, jadi tidak perlu ribet memasukkan 2 kali startDate dan endDate
 ```
 
 ## Kode Javascript :
