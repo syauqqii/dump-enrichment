@@ -1,26 +1,28 @@
 ```javascript
 javascript: (function() {
     let token = "";
-
-    fetch('https://incubator.apps.binus.ac.id/api/auth/session')
-        .then(response => response.json())
-        .then(data => {
-            if (data.token) {
-                token = data.token.toString();
-            } else {
-                alert('Token tidak ditemukan');
-                return;
-            }
-        })
-        .catch(error => {
-            alert('Terjadi kesalahan: ' + error);
+    fetch('https://incubator.apps.binus.ac.id/api/auth/session').then(response => response.json()).then(data => {
+        if (data.token) {
+            token = data.token.toString();
+        } else {
+            alert('Token tidak ditemukan');
             return;
-        });
-    
-    let picInput = document.querySelectorAll('input[name="pic"]')[1].value;
+        }
+    }).catch(error => {
+        alert('Terjadi kesalahan: ' + error);
+        return;
+    });
 
-    if (!picInput.trim()) {
+    let picInput = document.querySelectorAll('input[name="pic"]')[1];
+
+    if (picInput === undefined) {
+        alert("Klik Menu [+ Add Activity]");
+        return;
+    }
+
+    if (!picInput.value.trim()) {
         alert("Silahkan pilih nama anda terlebih dahulu di opsi form bagian PIC yang ada di menu [+ Add Activity]");
+        return;
     } else {
         var FileURL = prompt("Input File URL:");
         if (FileURL) {
@@ -32,49 +34,50 @@ javascript: (function() {
                 const uploads = lines.map((line) => {
                     if (line.trim() && line !== '-') {
                         const [start, endInput, name, description] = line.split('|');
-
                         const formatDate = (dateStr) => {
                             const [year, month, day] = dateStr.split('-');
                             return `${day}-${month}-${year}`;
                         };
-
                         increment++;
-
                         let startDate = start.trim();
                         let endDate = endInput.trim();
-
                         if (endDate === '.') {
                             endDate = startDate;
                         } else if (!startDate && !endDate) {
                             hasErrors = true;
-                            errorDetails.push({ line: increment });
+                            errorDetails.push({
+                                line: increment
+                            });
                             return Promise.resolve();
                         } else if (!endDate) {
                             hasErrors = true;
-                            errorDetails.push({ line: increment });
+                            errorDetails.push({
+                                line: increment
+                            });
                             return Promise.resolve();
                         } else if (!startDate) {
                             hasErrors = true;
-                            errorDetails.push({ line: increment });
+                            errorDetails.push({
+                                line: increment
+                            });
                             return Promise.resolve();
                         }
-
                         if (new Date(endDate) < new Date(startDate)) {
                             hasErrors = true;
-                            errorDetails.push({ line: increment });
+                            errorDetails.push({
+                                line: increment
+                            });
                             return Promise.resolve();
                         }
-
                         if (startDate && endDate && name && description) {
                             const postData = {
                                 'start': formatDate(startDate),
                                 'end': formatDate(endDate),
                                 'name': name.trim(),
                                 'description': description.trim(),
-                                'pic': picInput.trim(),
+                                'pic': picInput.value.trim(),
                                 'predecessor_id': ''
                             };
-
                             return fetch('https://incubator-backend.apps.binus.ac.id/api/startup/activity/add-planning', {
                                 method: 'POST',
                                 headers: {
@@ -102,7 +105,6 @@ javascript: (function() {
                     }
                     return Promise.resolve();
                 });
-
                 Promise.all(uploads).then(() => {
                     if (hasErrors) {
                         if (errorDetails.length > 0) {
